@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          vk:
+            clientId: 7802850
+            clientSecret: f0xn3LrnpZezFbhcnxPl
+            accessTokenUri: https://oauth.vk.com/access_token
+            userAuthorizationUri: https://oauth.vk.com/authorize
+            clientAuthenticationScheme: form
+            scope: 273744030
